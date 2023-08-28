@@ -1,31 +1,43 @@
-header{
+header {
     background-color: #996633;
 }
 
-footer{
+footer {
     background-color: #654321;
 }
 
-main{
+main {
     background-color: #C5A171;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 50px;
 }
 
-.font{
+.pict-hero img {
+    width: 100%;
+}
+
+.font {
     font-family: 'Montserrat', sans-serif;
 }
 
-.bghome{
+.bghome {
     background-image: url("../pict/background-pramuka-coklat-8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-} 
+}
 
 .justify-text {
     text-align: justify;
-    text-justify: inter-word; /* Pengaturan untuk efek "justify" */
+    text-justify: inter-word;
+    /* Pengaturan untuk efek "justify" */
+}
+
+@media (max-width:600px) {
+    .responsive-image {
+        max-width: 50%;
+        height: auto;
+    }
 }
